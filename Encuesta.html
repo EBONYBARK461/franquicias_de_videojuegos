@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion</title>
+    <link rel="stylesheet" href="../franquicias_de_videojuegos/css/diseño.css">
+    <link rel="stylesheet" href="../franquicias_de_videojuegos/css/estilos.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul class="menu">    
+            <li class="logo">
+                <a href="">
+                    <img src="../franquicias_de_videojuegos/img/Imagen_logo.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="./pagina.html"> Inicio </a>
+            </li>
+            <li>
+                <a href="">Quienes somos?</a>
+            </li>
+            
+            <li>
+                <a href="./Encuesta.html">Danos tu opinion</a>
+            </li>
+
+            <li>
+                <a href=""> Contactenos </a>
+            </li>
+        </ul>
+    </nav>
+
+    <form action="/action_page.php">
+        <label for="fname">Cual es tu opinion sobre la pagina?:</label><br>
+        <input type="text" id="opinion" name="opinion">
+        <br>
+        <input type="submit" onclick="enviodatos()" value="Enviar">
+      </form> 
+      <footer>
+        <p>Hecho por juan felipe Nomesque</p>
+    </footer>
+
+    <script src="./formulario.js"></script>
+</body>
+</html>
